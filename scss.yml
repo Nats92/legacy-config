@@ -1,4 +1,4 @@
-exclude: 
+exclude:
   - 'frontend/blocks/**'
 
 linters:
@@ -145,7 +145,7 @@ linters:
 
   SelectorFormat:
     enabled: true
-    convention: hyphenated_lowercase
+    convention: '^[a-z\-\_0-9]*$'
 
   Shorthand:
     enabled: true

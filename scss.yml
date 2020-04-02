@@ -110,11 +110,6 @@ linters:
   PlaceholderInExtend:
     enabled: true
 
-  PropertyCount:
-    enabled: false
-    include_nested: false
-    max_properties: 10
-
   PrivateNamingConvention:
     enabled: false
 
